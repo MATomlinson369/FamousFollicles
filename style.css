@@ -1,0 +1,71 @@
+#wrapper{
+    background-image: url("images/background.webp");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+.changecharacter{
+    font-size: xx-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:darkgoldenrod;
+    text-decoration: none;
+   
+}
+
+    
+#showtimebtn1, #showtimebtn2, #showtimebtn3, #mutemuziek{
+    display: flex;
+    text-align:center;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgoldenrod;
+    background-color: black;
+    width: 10em;
+    height: 3em;
+}
+
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+section div{
+    width: 25%;
+
+}
+h1{
+   text-align: center;
+    font-size: 80px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+      
+}
+
+.hairlist img{
+    width: 15em;
+}
+ul {
+    margin-top: -17em;
+}
+
+.hairlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#hair3{
+    display: flex;
+    max-height: 248px;
+    max-width: 268px;
+}
+
+
+
